@@ -1,0 +1,72 @@
+var name = "samyak";
+undefined
+name
+"samyak"
+name.length
+6
+name.toUpperCase
+ƒ toUpperCase() { [native code] }
+name.toUpperCase();
+"SAMYAK"
+parseInt("123");
+123
+12 % 5
+2
+"hello" + "world"
+"helloworld"
+"a"/"b"
+NaN
+1/0
+Infinity
+var bool = true;
+undefined
+bool;
+true
+2 === 2
+true
+var test;
+undefined
+test;
+undefined
+if  3 > 2{
+VM979:1 Uncaught SyntaxError: Unexpected number
+if(3 > 2){console.log("happy")}
+VM1062:1 happy
+undefined
+if(3>4){console.log("happy")}else {console.log("unhappy")}
+VM1235:1 unhappy
+undefined
+var name = "My name"; switch(name) { case "My name": console.log("Condition 1"); break; case "my Name": console.log("Condition 2"); break; default: console.log("None of the conditions are true"); }
+VM1241:1 Condition 1
+undefined
+for(var i = 0; i<=5; i++){console.log(i)}
+VM1354:1 0
+VM1354:1 1
+VM1354:1 2
+VM1354:1 3
+VM1354:1 4
+VM1354:1 5
+undefined
+var i =0 while (i<=5){ console.log(i) i=i+1 } 
+VM1361:1 Uncaught SyntaxError: Unexpected token 'while'
+var i=0; while(i<=5){console.log(i) i =i+1}
+VM1491:1 Uncaught SyntaxError: Unexpected identifier
+var friends = ["friend1", "friend2", "friend3"];
+undefined
+console.log(friends);
+VM1657:1 (3) ["friend1", "friend2", "friend3"]
+undefined
+console.log(friends[0]);
+VM1753:1 friend1
+undefined
+for(var index in friends){console.log(friends[index])}
+VM1945:1 friend1
+VM1945:1 friend2
+VM1945:1 friend3
+undefined
+friends.length;
+3
+friends.push("friend4");
+4
+friends.pop();
+"friend4"
